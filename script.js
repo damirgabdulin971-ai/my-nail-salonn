@@ -4,9 +4,10 @@ function initMap() {
         zoom: 15,
         center: salonLocation,
     });
-    const marker = new google.maps.Marker({
+    const marker = new yandex.ru/maps({
         position: salonLocation,
         map: map,
         title: "Наш маникюрный салон",
     });
 }
+
